@@ -6,17 +6,17 @@ function getIt(){
 }
 
 function frameIt(){
-  $('document').on('load',function(){
+  $('img').on('load',function(){
     $('img').addclass('tasty');
   });
 }
-
+/*
 function pressIt(){
-  $('document').on('keydown', function(){
+  $('form:in').on('keydown', function(){
     $(form)
   })
 }
-
+*/
 $(document).ready(function(){
 
 // call functions here
