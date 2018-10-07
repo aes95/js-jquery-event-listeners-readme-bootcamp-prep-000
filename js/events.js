@@ -10,13 +10,13 @@ function frameIt(){
     $('img').addClass('tasty');
   });
 }
-/*
+
 function pressIt(){
-  $('form:in').on('keydown', function(){
+  $('#').on('keydown', function(){
     $(form)
   })
 }
-*/
+
 $(document).ready(function(){
 
 // call functions here
